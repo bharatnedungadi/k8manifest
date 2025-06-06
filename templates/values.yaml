@@ -2,7 +2,7 @@ name: bgdemo
 replicas: 2
 
 image: <+artifact.images>
-dockercfg: <+artifact.imagePullSecrets>
+# dockercfg: <+artifact.imagePullSecrets>
 
 createNamespace: true
 namespace: ${serviceVariable.namespace}
